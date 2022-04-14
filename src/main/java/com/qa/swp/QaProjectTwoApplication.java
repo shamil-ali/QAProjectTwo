@@ -1,4 +1,4 @@
-package com.qa.springtesting;
+package com.qa.swp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
