@@ -48,17 +48,17 @@ public class VehicleService implements ServiceIF<Vehicle> {
 		this.repo.deleteById(id);
 	}
 	
-	public List<Vehicle> getMotorByRegistration(String registration) {
+	public List<Vehicle> getMotorsByRegistration(String registration) {
 		List<Vehicle> found = this.repo.findByRegistrationIgnoreCase(registration);
 		return found;
 	}
 	
-	public List<Vehicle> getMotorByType(String type) {
+	public List<Vehicle> getMotorsByType(String type) {
 		List<Vehicle> found = this.repo.findByType(type);
 		return found;
 	}
 	
-	public List<Vehicle> getMotorByJob(String job) {
+	public List<Vehicle> getMotorsByJob(String job) {
 		List<Vehicle> found = this.repo.findByJob(job);
 		return found;
 	}
