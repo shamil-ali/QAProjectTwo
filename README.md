@@ -92,6 +92,14 @@ This page allows users to input an 'id' in order to delete the entry from the da
 
 ![Delete Page](https://i.imgur.com/86OFydW.png)
 
+# Version Control
+
+* [GitHub](https://github.com/shamil-ali/QAProjectTwo)
+
+Timeline of the most recent commits to this repository and its network ordered by most recently pushed to.
+
+![Network Graph](https://i.imgur.com/R5PMEq2.png)
+
 # Project Management Board
 
 * [Jira](https://shamilali.atlassian.net/jira/software/projects/QAP2/boards/4)
