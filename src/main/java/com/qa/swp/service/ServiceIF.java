@@ -13,5 +13,7 @@ public interface ServiceIF<T> {
 	T replace(Integer id, T t);
 	
 	void remove(Integer id);
+	
+//	void removeAll();
 
 }
