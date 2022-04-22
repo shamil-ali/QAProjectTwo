@@ -57,10 +57,14 @@ public class VehicleController {
 		
 	// DELETE
 	@DeleteMapping("/remove/{id}") // 204 - NO CONTENT
-	public ResponseEntity<?> removeDog(@PathVariable Integer id) {
+	public ResponseEntity<?> removeVehicle(@PathVariable Integer id) {
 		this.service.remove(id);
 		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 	}
+	
+//	// DELETE ALL
+//	
+//	@DeleteMapping("/remove/")
 	
 	// READ BY NAME
 	@GetMapping("/getByRegistration/{registration}") // 200 - OK
