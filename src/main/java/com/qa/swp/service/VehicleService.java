@@ -40,6 +40,7 @@ public class VehicleService implements ServiceIF<Vehicle> {
 		existing.setRegistration(newVehicle.getRegistration());
 		existing.setType(newVehicle.getType());
 		existing.setJob(newVehicle.getJob());
+//		existing.setContactNumber(newVehicle.getContactNumber());
 		Vehicle updated = this.repo.save(existing);
 		return updated;
 	}
@@ -47,6 +48,10 @@ public class VehicleService implements ServiceIF<Vehicle> {
 	public void remove(@PathVariable Integer id) {
 		this.repo.deleteById(id);
 	}
+	
+//	public void removeAll() {
+//		
+//	}
 	
 	public List<Vehicle> getMotorsByRegistration(String registration) {
 		List<Vehicle> found = this.repo.findByRegistrationIgnoreCase(registration);
