@@ -1,0 +1,68 @@
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.searchBar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.searchBtn {
+  text-align: center;
+}
+
+.create {
+  margin: 20px;
+  text-align: center;
+}
+
+.update {
+  margin: 20px;
+  text-align: center;
+}
+
+.delete {
+  margin: 20px;
+  text-align: center;
+}
+
+.newEntry {
+  text-align: center;
+  margin: 20px;
+}
+
+.deleteEntry {
+  text-align: center;
+  margin: 20px;
+}
+
+#newEntryButton {
+  width: 49%;
+}
+
+#editEntryButton {
+  width: 49%;
+}
+
+#deleteEntryButton {
+  width: 98%;
+}
+
+.entries {
+  margin: 20px;
+}
+
+.new-entries {
+  margin-left:  20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 82px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
