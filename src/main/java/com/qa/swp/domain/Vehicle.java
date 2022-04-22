@@ -21,6 +21,9 @@ public class Vehicle {
 	
 	@Column
 	private String job;
+	
+//	@Column
+//	private String contactNumber;
 
 	public Vehicle(Integer id, String registration, String type, String job) {
 		super();
@@ -28,6 +31,7 @@ public class Vehicle {
 		this.registration = registration;
 		this.type = type;
 		this.job = job;
+//		this.contactNumber = contactNumber;
 	}
 
 	public Vehicle() {
@@ -65,9 +69,19 @@ public class Vehicle {
 	public void setJob(String job) {
 		this.job = job;
 	}
+	
+//	public String getContactNumber() {
+//		return contactNumber;
+//	}
+//	
+//	public void setContactNumber(String contactNumber) {
+//		this.contactNumber = contactNumber;
+//	}
 
 	@Override
 	public String toString() {
 		return "Vehicle [id=" + id + ", registration=" + registration + ", type=" + type + ", job=" + job + "]";
 	}
+	
+//	 + ",contactNumber=" + contactNumber
 }
